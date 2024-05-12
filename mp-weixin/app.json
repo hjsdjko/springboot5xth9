@@ -1,0 +1,85 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/news-detail/news-detail",
+    "pages/xuesheng/list",
+    "pages/xuesheng/add-or-update",
+    "pages/xuesheng/detail",
+    "pages/suguan/list",
+    "pages/suguan/add-or-update",
+    "pages/suguan/detail",
+    "pages/jiankangshangbao/list",
+    "pages/jiankangshangbao/add-or-update",
+    "pages/jiankangshangbao/detail",
+    "pages/weishengpingbi/list",
+    "pages/weishengpingbi/add-or-update",
+    "pages/weishengpingbi/detail",
+    "pages/gonggongsheshi/list",
+    "pages/gonggongsheshi/add-or-update",
+    "pages/gonggongsheshi/detail",
+    "pages/jiaofeixinxi/list",
+    "pages/jiaofeixinxi/add-or-update",
+    "pages/jiaofeixinxi/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/messages/list",
+    "pages/messages/liuyan",
+    "pages/pay-confirm/pay-confirm",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "宿舍管理小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#BBBBBB",
+    "selectedColor": "#7BE2CD",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/gonggongsheshi/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "公共设施"
+      },
+      {
+        "pagePath": "pages/news/list",
+        "iconPath": "static/tabs/news.png",
+        "selectedIconPath": "static/tabs/news_act.png",
+        "text": "疫情公告"
+      },
+      {
+        "pagePath": "pages/messages/list",
+        "iconPath": "static/tabs/message.png",
+        "selectedIconPath": "static/tabs/message_act.png",
+        "text": "在线留言"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
